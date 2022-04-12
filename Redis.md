@@ -38,14 +38,15 @@
 # 4. Caching
 
 - Caching là một kỹ thuật tăng độ truy xuất dữ liệu và giảm tải cho hệ thống. Cache là nơi lưu tập hợp các dữ liệu, thường có tính chất nhất thời, cho phép sử dụng lại dữ liệu đã lấy hoặc tính toán trước đó, nên sẽ giúp tăng tốc cho việc truy xuất dữ liệu ở những lần sau.
-- **Caching hoạt động**: Dữ liệu trong cache (bộ đệm) thường được lưu trữ trong RAM (Random-access memory). Mục đích chính của cache là tăng hiệu suất truy xuất dữ liệu. Cache thường lưu trữ một tập hợp con dữ liệu tạm thời.
+- Dữ liệu trong cache (bộ đệm) thường được lưu trữ trong RAM. Mục đích chính của cache là tăng hiệu suất truy xuất dữ liệu. Cache thường lưu trữ một tập hợp con dữ liệu tạm thời.
+
 - Lợi ích:
 
 <ul>
 <ul>
-<li> Cải thiện hiệu suất của ứng dụng
-<li>
-<li>
-<li>
+<li> Cải thiện hiệu suất của ứng dụng.
+<li> Cải thiện khi thời gian xử lý tăng đột biến trong lúc dùng ứng dụng.
+<li> Giảm tải cho backend.
+<li> Tăng thông lượng đọc (IOPS).
 </ul>
 </ul>
